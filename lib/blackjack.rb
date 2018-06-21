@@ -66,9 +66,9 @@ def runner
   # code runner here
   welcome
   
-  current_card_total = initial_round
+  initial_round
   
-  hit?
+  hit? 
   
   until current_card_total > 21 
   current_card_total = hit?(current_card_total)
